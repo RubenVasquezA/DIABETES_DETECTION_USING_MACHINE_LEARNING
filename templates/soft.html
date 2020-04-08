@@ -1,0 +1,110 @@
+<!--Autor: Lic.Rubén Dario Vásque Alvarez-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Predicción DT2</title>
+	<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="../static/css/styles.css">
+	<link rel="stylesheet" href="../static/css/jquery-ui.css"> 
+	<link href="../static/css/jquery.dataTables.min.css" rel="stylesheet">
+	
+
+	
+</head>
+<body onload="mostrar_persona()">
+
+	 <div id="cabecera">
+	 	<div class="logo">
+
+
+	 		<img src="../static/images/unmsm.png" alt="" class="img_logo">
+	 		<h4>PREDICCIÓN TEMPRANA DE DIABETES TIPO 2</h4>
+	 		
+	 	</div>
+
+
+	 </div> 
+
+	<div id="contenedor">
+		
+			<div class="contenedor-menu">
+				<!--Disposivo movil-->
+				<a href="#" class="btn-menu">MENU<i class="icono fas fa-bars"></i></a>
+				<ul class="menu">
+					<li><a href="/"><i class="icono izquierda fas fa-home"></i>Home</a></li>
+					<li><a href="/info"><i class="icono izquierda fas fa-info-circle"></i>About the project</a></li>
+					<li><a href="/imc"><i class="icono izquierda fas fa-heartbeat"></i>Body mass index calculator</a></li>
+					<li class="activado"><a href="/soft"><i class="icono izquierda fas fa-chart-line"></i>Software</a></li>
+					<li><a href="/esta"><i class="icono izquierda fas fa-chart-bar"></i>Statistics</a></li>
+				</ul>
+			</div>
+
+			<div class="contenido">
+
+				<div id="titulo-cont">
+
+					<div class="dere"><img src="../static/images/mat.png" alt="" height="40" width="40">
+					<img src="../static/images/logomejorado.png" alt=""  height="40" width="80" ></div>
+					
+				</div>
+					
+				
+				<div id="note">
+
+				<div class="note-mita-izq">
+					<div class="note-mita-title">PREDICTIVE VARIABLES</div>
+					<a href="#" class="Boton largo" id="NUEVO" onclick="nuevo()">NEW ENTRY</a>
+						<div class="note-mita-izq-pane" id="bdy_mtd">
+						</div>
+
+				</div>
+
+
+					<div class="note-mita-dere">
+						<div class="note-mita-title">PREDICTED OUTCOME</div>
+						<div class="note-mita-izq-pane">
+							<table id="example" class="display" cellspacing="0" width="100%">
+				          <thead>
+				              <tr>
+				                  <th>ID of Individual</th>
+				                  <th>Type</th>
+				                  <th>Option</th>
+				              </tr>
+				          </thead>
+				          <tfoot>
+				              <tr>
+				                 <th>ID of Individual</th>
+				                  <th>Type</th>
+				                  <th>Option</th>
+				              </tr>
+				          </tfoot>
+				      		</table>
+						</div>
+					</div>
+			</div>
+	
+			
+				
+			</div>
+
+
+	</div>
+
+	
+
+
+
+	<script src="../static/js/jquery.js"></script>
+	<script src="../static/js/main.js"></script>
+	<script src="../static/js/jquery-ui.js"></script>
+	<script src="../static/js/cpd.js"></script>
+	<script src="../static/js/jquery.validate.min.js"></script>
+	<script src="../static/js/validacion_datos.js"></script>
+	<script src="../static/js/jquery.dataTables.min.js"></script>
+	
+	
+
+</body>
+
+</html>
