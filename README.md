@@ -4,3 +4,4 @@ This software is based on Python as Backend and HTML,JavaScript,CSS as frontend.
 
 The software works with a database which has been disigned in MySQL, but it is not available in this repository for security.
 
+Python version 2.7
